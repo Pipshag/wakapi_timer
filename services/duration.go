@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-const HeartbeatDiffThreshold = 2 * time.Minute
+const HeartbeatDiffThreshold = 20 * time.Minute
 
 type DurationService struct {
 	config           *config.Config
